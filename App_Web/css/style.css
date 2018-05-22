@@ -1,0 +1,223 @@
+/* CSS */
+
+body{
+background-color: #00acc1;
+margin: 0;
+}
+
+img {
+width: 150px;
+height: 150px;
+}
+
+span{
+font-family: Helvetica, sans-serif;
+color: #727272;
+display:flex;
+}
+
+a{
+font-family: Helvetica, sans-serif;
+text-decoration: none;
+color: white;
+}
+
+label{
+color: white;
+font-family: Helvetica, sans-serif;
+font-size: 50px;
+}
+
+li{
+font-family: Helvetica;
+}
+
+.top{
+font-size: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: #0097a7;
+border-color:#b2ebf2;
+border-bottom-style: solid;
+border-bottom-width: 5px;
+padding-top: 10px;
+}
+
+#depart{
+height: 50px;
+width: 150px;
+margin: 10px;
+}
+
+#ligne{
+height: 50px;
+width: 150px;
+margin: 10px;
+}
+
+#heure{
+height: 50px;
+width: 150px;
+margin: 10px;
+}
+
+.DLH{
+margin:25px;
+font-size: 40px;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: stretch;
+}
+
+.DLH_img{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+
+form{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;  
+}
+
+input:focus {
+    outline: none;
+}
+
+.map{
+margin: 25px;
+background-color: white;
+opacity: 1;
+display: flex;
+justify-content: center;
+border-radius: 15px;
+border-color:#b2ebf2;
+border-style: solid;
+border-width: 5px;
+}
+
+.map_img{
+margin-top: 175px;
+}
+
+#img_depart{
+}
+
+#img_trajet{
+}
+
+#img_arret{
+margin-bottom: 20px;
+}
+
+#img_arrive{
+}
+
+.trajet{
+margin:auto;
+}
+
+.texte{
+margin-left:300px;
+margin-right:300px;
+margin-top:50px;
+margin-bottom:50px;
+font-size: 45px;
+background-color: white;
+display: flex;
+justify-content:center;
+border-radius: 12px;
+text-align: center;
+border-color:#b2ebf2;
+border-style: solid;
+border-width: 5px;
+padding-left:50px;
+padding-right:50px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+.logo{
+display: flex;
+justify-content:center;
+}
+
+.a_propos{
+margin:50px;
+padding-left:25px;
+padding-right:25px;
+padding-top:10px;
+padding-bottom:10px;
+font-size: 30px;
+display:flex;
+justify-content:column;
+border-color:#b2ebf2;
+border-style: solid;
+border-width: 5px;
+background-color: white;
+border-radius: 12px;	
+}
+
+/* onglets */
+
+
+.onglet{
+display:inline-block;
+margin:5px 2px 0 2px;
+padding:5px 10px ;
+cursor: pointer;
+color: #00ACC1;
+
+}
+
+.off{
+display:inline-block;
+background-color:#034E54;
+color: #FFF;
+border-radius: 2px;
+border-color:#b2ebf2;
+border-style: solid;
+border-width: 1px;
+}
+
+.off:hover{
+background:#B2EBF2;
+cursor: pointer;
+}
+
+.show-content-1{
+background: #00ACC1;
+border-bottom:2px solid white;
+padding-bottom:4px;
+cursor:text;
+color: #FFF;
+border-radius: 2px;
+border-color:#b2ebf2;
+border-style: solid;
+border-width: 2px;
+}
+
+.content{
+background-color: #00ACC1;
+margin-top:-1px;
+padding:5px;
+display:none;
+cursor: text;
+}
+
+#fiche{
+width: 1186px;
+height: 718px;
+padding: 25px 25px 25px 150px;
+}
+

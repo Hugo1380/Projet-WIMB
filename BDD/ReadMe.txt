@@ -1,0 +1,1 @@
+Pour créer la base de données, voir la doc "Didacticiel BDD.pdf"

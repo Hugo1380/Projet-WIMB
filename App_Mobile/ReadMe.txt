@@ -1,0 +1,1 @@
+Chemin d'accés APK : WIMB\app\build\outputs\apk

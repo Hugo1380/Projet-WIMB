@@ -1,0 +1,1 @@
+Ici se trouve le programme pour l'arduino Mega. Pour la communication Bluetooth, voir la doc : "Communication Inter-Bluetooth"
